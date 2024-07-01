@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(113, 113, 113, 1);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.orange{
+    position: absolute;
+    margin: 250px 500px 30px -220px;
+    width: 350px;
+    height: 350px;
+
+    
+    box-shadow: 0px 0px 43.4px 34px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(1px 20px 25.5px rgba(255, 107, 0, 0.25));
+    border-radius: 345.5px;
+    
+
+}
+
+#orange{
+    margin-top: -53px;
+    margin-left: -45px;
+}
+
+
+#tlogo{
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 29px 300px 200px -340px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 90px;
+    letter-spacing: 5px;
+
+    color: #FFFFFF;
+}
+
+
+
+#tuseful{
+
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 260px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+
+    color: #FFFFFF;
+}
+
+#tdelicious{
+
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 350px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+
+    color: #FFFFFF;
+}
+
+#torange{
+
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 440px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+
+    color: #FFFFFF;
+}
+
+#tdescribe{
+
+    position: absolute;
+
+    width: 400px;
+    
+    margin: 540px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    word-wrap: normal;
+
+    color: #FFFFFF;
+}
+
+#tdescribe2{
+
+    position: absolute;
+
+    width: 400px;
+    
+    margin: 565px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    word-wrap: normal;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+#cost{
+
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 590px 300px 200px -20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+#ATC{
+
+    height: 60px;
+    width: 220px;
+    margin-top: 660px;
+
+    margin-left: -20px;
+    background-color: rgba(0, 0, 0, 0);
+    border:4px solid white;
+    border-radius: 50px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#ATC:hover{
+    background: white;
+    border:4px solid white;
+    color: black;
+    #tATC{color: rgba(113, 113, 113, 1);}
+}
+
+
+#tATC{
+    position: absolute;
+
+    color: white;
+    width: 1000px;
+    margin-top: -5px;
+    padding-left: 15px;
+
+    
+    
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+
+.circle{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+
+    background-color: white;
+    border-radius: 100%;
+}
+
+#one{
+    margin-top: 380px;
+    margin-left: -920px;
+}
+
+#two{
+    margin-top: 420px;
+    margin-left: -920px;
+}
+
+#three{
+    margin-top: 460px;
+    margin-left: -920px;
+}
+
+#four{
+    margin-top: 500px;
+    margin-left: -920px;
+}
+
+#five{
+    margin-top: 540px;
+    margin-left: -920px;
+}
+
+
+#morange{
+
+
+    position: absolute;
+    width: 50px;
+    height: 47px;
+    margin-left: -1700px;
+    margin-top: 50px;
+    border-radius: 345.5px;
+    background: linear-gradient(122.14deg, #F19C31 11.99%, #FD6B01 71.45%);
+
+}
+
+
+
+
+
+
+
+
+#borange{
+    position: absolute;
+    margin-left: 1900px;
+    height: 1000px;
+    width: 1000px;
+    background-color: #fff;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#oranges{
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 1000px;
+    width: 1000px;
+}
+
+
+
+
+#thome:hover{
+    color: #F19C31;
+}
+
+#thistory:hover{
+    color: #F19C31;
+}
+
+#tabout:hover{
+    color: #F19C31;
+}
+
+#tsale:hover{
+    color: #F19C31;
+}
+
+#tcontact:hover{
+    color: #F19C31;
+}
+
+
+
+
+
+
+#thome{
+    position: absolute;
+
+    width: 1000px;
+    
+    margin: 40px 300px 200px 1100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    cursor: pointer ;
+    transition: 0.5s;
+
+    color: #FFFFFF; }
+
+#tabout{
+
+    position: absolute;
+    
+    width: 1000px;
+        
+    margin: 40px 300px 200px 1300px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    cursor: pointer ;
+    transition: 0.5s;
+    
+    color: #FFFFFF; }
+#thistory{
+    position: absolute;
+    
+    width: 1000px;
+        
+    margin: 40px 300px 200px 1500px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    cursor: pointer ;
+    transition: 0.5s;
+    
+    color: #FFFFFF; }
+#tsale{
+    position: absolute;
+    
+    width: 1000px;
+        
+    margin: 40px 300px 200px 1730px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    cursor: pointer ;
+    transition: 0.5s;
+    
+    color: #FFFFFF;}
+#tcontact{
+    position: absolute;
+    
+    width: 1000px;
+        
+    margin: 40px 300px 200px 1880px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    cursor: pointer ;
+    transition: 0.5s;
+    
+    color: #FFFFFF; }
+
+#dop{
+    margin-left: -180px;
+}
+
+h1{
+    cursor: default;
+}
+h6{
+    cursor: default;
+}
+
+#tlogo{
+    cursor: default;
+}
